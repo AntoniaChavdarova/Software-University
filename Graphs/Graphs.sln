@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DFS", "Graphs\DFS.csproj", "{EA51FC55-704E-4BD5-89D6-7E0D7E7A5D02}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BFS", "BFS\BFS.csproj", "{E307C8B2-BB47-47D4-9DD4-39778E4FFF46}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConnectedComponentss", "ConnectedComponents\ConnectedComponentss.csproj", "{396BCFE7-D873-43F7-9E36-D163A831C6E4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RemovalAlgorithm", "RemovalAlgorithm\RemovalAlgorithm.csproj", "{D72ACD64-1B7D-4770-B765-138E13A9CE82}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShortestPath", "ShortestPath\ShortestPath.csproj", "{C3AB649E-0993-4862-9A33-8B293CFBCA1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1.Distance Between Vertices", "1.Distance Between Vertices\1.Distance Between Vertices.csproj", "{7FBB893A-031A-466C-9E19-D408F0F3F074}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA51FC55-704E-4BD5-89D6-7E0D7E7A5D02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA51FC55-704E-4BD5-89D6-7E0D7E7A5D02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA51FC55-704E-4BD5-89D6-7E0D7E7A5D02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA51FC55-704E-4BD5-89D6-7E0D7E7A5D02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E307C8B2-BB47-47D4-9DD4-39778E4FFF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E307C8B2-BB47-47D4-9DD4-39778E4FFF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E307C8B2-BB47-47D4-9DD4-39778E4FFF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E307C8B2-BB47-47D4-9DD4-39778E4FFF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{396BCFE7-D873-43F7-9E36-D163A831C6E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{396BCFE7-D873-43F7-9E36-D163A831C6E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{396BCFE7-D873-43F7-9E36-D163A831C6E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{396BCFE7-D873-43F7-9E36-D163A831C6E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72ACD64-1B7D-4770-B765-138E13A9CE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72ACD64-1B7D-4770-B765-138E13A9CE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72ACD64-1B7D-4770-B765-138E13A9CE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72ACD64-1B7D-4770-B765-138E13A9CE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3AB649E-0993-4862-9A33-8B293CFBCA1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3AB649E-0993-4862-9A33-8B293CFBCA1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3AB649E-0993-4862-9A33-8B293CFBCA1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3AB649E-0993-4862-9A33-8B293CFBCA1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7FBB893A-031A-466C-9E19-D408F0F3F074}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FBB893A-031A-466C-9E19-D408F0F3F074}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FBB893A-031A-466C-9E19-D408F0F3F074}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FBB893A-031A-466C-9E19-D408F0F3F074}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D93C9B6B-1AAB-473B-9049-336C730A1206}
+	EndGlobalSection
+EndGlobal
