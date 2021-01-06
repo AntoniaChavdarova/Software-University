@@ -36,8 +36,6 @@ namespace ShortestPath
                 return;
             }
 
-           
-
             var queue = new Queue<int>();
             queue.Enqueue(startNode);
 
