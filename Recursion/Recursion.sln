@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Queens", "Recursion\Queens.csproj", "{9E44084F-2BF4-467E-9360-76C35CA33BF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Maze", "Maze\Maze.csproj", "{D0CAD687-8D58-456E-8E1A-0DA1633C1235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Labyrinth", "Labyrinth\Labyrinth.csproj", "{11CAA382-701E-4090-B37C-C5A4D8CF046C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursiveDrawing", "RecursiveDrawing\RecursiveDrawing.csproj", "{78AF016D-E585-46EE-9FEC-3B1942A9D8EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9E44084F-2BF4-467E-9360-76C35CA33BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E44084F-2BF4-467E-9360-76C35CA33BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E44084F-2BF4-467E-9360-76C35CA33BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E44084F-2BF4-467E-9360-76C35CA33BF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0CAD687-8D58-456E-8E1A-0DA1633C1235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0CAD687-8D58-456E-8E1A-0DA1633C1235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0CAD687-8D58-456E-8E1A-0DA1633C1235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0CAD687-8D58-456E-8E1A-0DA1633C1235}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11CAA382-701E-4090-B37C-C5A4D8CF046C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11CAA382-701E-4090-B37C-C5A4D8CF046C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11CAA382-701E-4090-B37C-C5A4D8CF046C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11CAA382-701E-4090-B37C-C5A4D8CF046C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78AF016D-E585-46EE-9FEC-3B1942A9D8EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78AF016D-E585-46EE-9FEC-3B1942A9D8EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78AF016D-E585-46EE-9FEC-3B1942A9D8EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78AF016D-E585-46EE-9FEC-3B1942A9D8EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6576A084-A7D0-47BF-9C34-DC19EF8459BB}
+	EndGlobalSection
+EndGlobal
