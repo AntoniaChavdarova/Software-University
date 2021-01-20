@@ -1,2 +1,4 @@
 # Software-University
-C-Sharp-Advanced 
+C# OOP
+C# Advanced
+Algorithms Fundamentals with C#
