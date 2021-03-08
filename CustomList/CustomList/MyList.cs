@@ -21,7 +21,23 @@ namespace CustomList
             this.capacity = capacity;
             this.data = new T[capacity];
         }
+
         public int Count { get; private set; }
+
+        //Indeksator
+        public T this[int index] 
+        {
+            get
+            {
+                this.ValidateIndex(index);
+                return this.data[index];
+            }
+            set
+            {
+                this.ValidateIndex(index);
+                 this.data[index] = value;
+            }
+        }
 
         public void Add(T number)
         {
@@ -105,22 +121,7 @@ namespace CustomList
 
         }
 
-        public T this[int index] //Indeksator
-        {
-            get
-            {
-                this.ValidateIndex(index);
-                return this.data[index];
-            }
-            set
-            {
-                this.ValidateIndex(index);
-                 this.data[index] = value;
-            }
-        }
 
-
-        
         public void ValidateIndex(int index)
         {
             if(index >= this.Count ||  index < 0)
@@ -142,6 +143,7 @@ namespace CustomList
         {
             throw new NotImplementedException();
         }
+
         private void CheckIfResizeIsNeeded()
         {
             if (this.Count == this.data.Length)
