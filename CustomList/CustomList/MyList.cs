@@ -22,33 +22,13 @@ namespace CustomList
             this.data = new T[capacity];
         }
         public int Count { get; private set; }
+
         public void Add(T number)
         {
             CheckIfResizeIsNeeded();
 
             this.data[this.Count] = number;
             this.Count++;
-        }
-
-        private void CheckIfResizeIsNeeded()
-        {
-            if (this.Count == this.data.Length)
-            {
-                this.Resize();
-            }
-        }
-
-        private void Resize()
-        {
-            var newCapacity = this.data.Length * 2;
-            var newData = new T[newCapacity];
-
-            for (int i = 0; i < this.data.Length; i++)
-            {
-                newData[i] = this.data[i];
-            }  // kopiram stariq masiv
-
-            this.data = newData;
         }
 
         public int RemoveAll(Func<T , bool> filter)
@@ -139,6 +119,7 @@ namespace CustomList
             }
         }
 
+
         
         public void ValidateIndex(int index)
         {
@@ -160,6 +141,28 @@ namespace CustomList
         IEnumerator IEnumerable.GetEnumerator()
         {
             throw new NotImplementedException();
+        }
+        private void CheckIfResizeIsNeeded()
+        {
+            if (this.Count == this.data.Length)
+            {
+                this.Resize();
+            }
+        }
+
+        private void Resize()
+        {
+            var newCapacity = this.data.Length * 2;
+            var newData = new T[newCapacity];
+
+            for (int i = 0; i < this.data.Length; i++)
+            {
+                //prezapisvame na promenlivata referenciqta na tozi masiv
+                //masiva koito sme izpolzvali sega se zamenq s noviq !!
+                newData[i] = this.data[i];
+            }  
+
+            this.data = newData;
         }
     }
 }
