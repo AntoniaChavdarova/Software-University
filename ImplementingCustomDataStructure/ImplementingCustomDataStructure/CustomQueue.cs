@@ -32,8 +32,8 @@ namespace ImplementingCustomDataStructure
             }
 
            items[rear] = item;
-            rear++;
-           // Count++;
+           rear++;
+          
            
         }
 
@@ -47,9 +47,16 @@ namespace ImplementingCustomDataStructure
             }
 
             rear--;
-            //Count--;
+            
 
             return items[front];
+        }
+
+        public int Peek()
+        {
+            Validation();
+
+            return this.items[front];
         }
 
         public void ForEach()
