@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace ImplementingCustomDataStructure
 {
@@ -6,26 +7,49 @@ namespace ImplementingCustomDataStructure
     {
         static void Main(string[] args)
         {
-            CustomStack stack = new CustomStack();
+            //CustomStack stack = new CustomStack();
 
-            for (int i = 1; i <= 5; i++)
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    stack.Push(i);
+            //}
+
+            //stack.ForEach(e =>
+            //{
+            //    Console.WriteLine(e);
+            //}
+            //);
+
+            //for (int i = 1; i <= 5; i++)
+            //{
+            //    Console.WriteLine(stack.Peek());
+            //    Console.WriteLine(stack.Pop());
+            //}
+
+            //stack.Pop();
+
+            var queue = new Queue<int>();
+            queue.Enqueue(1);
+            queue.Enqueue(2);
+            queue.Enqueue(3);
+            
+            queue.Dequeue();
+            
+
+            Console.WriteLine(String.Join(" " , queue));
+
+            var queue1 = new CustomQueue();
+
+            for (int i = 1; i <= 9; i++)
             {
-                stack.Push(i);
+                queue1.Enqueue(i);
             }
+            queue1.Dequeue();
+            queue1.Dequeue();
+            Console.WriteLine(queue1.Count); 
 
-            stack.ForEach(e =>
-            {
-                Console.WriteLine(e);
-            }
-            );
+            queue1.ForEach();
 
-            for (int i = 1; i <= 5; i++)
-            {
-                Console.WriteLine(stack.Peek());
-                Console.WriteLine(stack.Pop());
-            }
-
-            stack.Pop();
         }
     }
 }
